@@ -138,27 +138,29 @@ main{
 .column-single{
     width:190px;
     height: 600px;
-    border: 2px solid black;
-    margin-right: 1rem;
-    
-    
+    border: 1px solid lightgray;
+    margin-right: 1.5rem;  
+}
+div.middle, div.down, p.upper{
+    width: 190px;
 }
 .upper{
     height: 30px;
-    background-color:black ;
+   
+    
     
 }
 .middle{
-    height: 320px;
-    background-color: #0061ff;
+    height: 320px;  
+   
 
 }
 .down{
-    height: 150px;
-    background-color: aqua;
+    height: 150px;  
+    
 
 }
 .empty{
     height: 100px;
-    background-color: blueviolet;
+    
 }
