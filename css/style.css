@@ -132,14 +132,33 @@ main{
     max-width:600px;
     height: 700px;
     margin: 0 auto;
-    background-color: green;
+  
 }
+
 .column-single{
-    width:180px;
+    width:190px;
     height: 600px;
-    background-color: black;
+    border: 2px solid black;
+    margin-right: 1rem;
+    
     
 }
-.singolo{
-    height: 10px;
+.upper{
+    height: 30px;
+    background-color:black ;
+    
+}
+.middle{
+    height: 320px;
+    background-color: #0061ff;
+
+}
+.down{
+    height: 150px;
+    background-color: aqua;
+
+}
+.empty{
+    height: 100px;
+    background-color: blueviolet;
 }
