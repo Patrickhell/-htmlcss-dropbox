@@ -208,29 +208,40 @@ div.middle, div.down, p.upper{
 
 .entreprise-vendita{
     width: 600px;
-    height: 180px;
-    background-color: red;
-    border-color: 1px solid lightgray;
+    border: 1px solid lightgray;
 }
 
 .assist-ufficio{
     width: 100%;
-    background-color: aquamarine;
+    height: 150px;
+   padding-left: 1rem;
     border-top-color: 1px solid lightgray;
 }
-.upper-team{
+.subtittle1{
     width: 100%;
     height: 30px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: .4rem;
 }
 .enterprise{
     width: 60%;
-   height: 150px;
+  
     
 }
 .ufficio-vendite{
     width: 40%;
-    height: 150px;
-    
+    height: 30px;
+    margin: 1rem 1rem;
+    text-align: center;
+    padding: .5rem;
+    background-color:#193bf2  ;
+    font-size: 13px;  
+}
+
+.font-text{
+    font-size: 11px;
+   
 }
 .text-img2{
     width: 600px;
@@ -238,13 +249,19 @@ div.middle, div.down, p.upper{
    
 }
 .second-img{
-    width: 70%;
-   
+    width: 65%;
+    
 }
 .text2{
-    width: 30%;
-    height: 400px;
-    background-color: aqua;
+    width: 35%;
+    text-align: left;
+    padding-left: 1rem;
+
+}
+.button-partner{
+
+    width: 130px;
+    height: 35px;
 }
 .img2{
     width: 100%;
