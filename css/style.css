@@ -282,14 +282,13 @@ div.middle, div.down, p.upper{
 .text-image{
     width: calc(100% / 3);
     
-    
-    
 }
 .img3{
     width: 100%;
     height:150px ;
     margin-bottom:2rem ;
 }
+
 .cards-text{
     width: 1200px;
     height: 400px;
@@ -297,15 +296,17 @@ div.middle, div.down, p.upper{
 
 div.left-cards, div.right-cards{
     width: 400px;
-    flex-wrap: wrap;
-   
-    
+    flex-wrap: wrap; 
 }
 
 .central-text{
     width: 400px;
-    padding: 1.5rem 1.5rem;
-   
+    padding: 1.5rem 1.5rem ;
+}
+.small-hr{
+    width: 80px;
+    border: 1px solid lightgray;
+    margin-bottom: 2rem;
 }
 
 .img4{
@@ -316,9 +317,8 @@ div.left-cards, div.right-cards{
 }
 
 .img4-central{
-    width: 40%;
+    width: 50%;
     
-
 }
 .bg-green{
 background-color: #a2d39b;
@@ -388,10 +388,30 @@ div p.domande{
     background-color: black;
 
 }
-footer{
-    height: 250px;
+.big-footer{
+    width: 100%;
+    height: 350px;
+    
+}
+.upper-footer{
+    justify-content: space-evenly; 
+}
+.padding-footer{
+    padding-left: 6.5rem;
+}
+div.small-hr2{
+    border: 1px solid gray;
+    width: 90px;
+    margin-bottom: 4rem;
+    margin-left: 6.5rem;
 }
 
+.line-height{
+    line-height: 2rem;
+}
+.margin-footer{
+    margin-right: 5px;
+}
 
 
 
