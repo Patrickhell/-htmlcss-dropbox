@@ -5,10 +5,12 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    background-color: white;
 }
 .bg-blu{
     background-color: #0061ff;
@@ -19,8 +21,14 @@ body{
 .color-white{
     color: white;
 }
+.bg-white{
+    background-color: white;
+}
 .color-black{
     color: black;
+}
+.color-lightgrey{
+    color: rgb(143, 140, 140);
 }
 .font{
     font-size: 13px;
@@ -133,6 +141,7 @@ main{
     max-width:600px;
     margin: 0 auto;
     padding-bottom: 4rem;
+    background-color: white;
   
 }
 
@@ -232,31 +241,39 @@ div.middle, div.down, p.upper{
 .cards-text{
     width: 1200px;
     height: 400px;
-    background-color: #0f7ed9;
 }
+
 div.left-cards, div.right-cards{
     width: 400px;
     flex-wrap: wrap;
-    background-color: #b4d0e7;
-    
    
+    
 }
+
 .central-text{
     width: 400px;
-    background-color: aqua;
+    padding: 1.5rem 1.5rem;
    
-
 }
+
 .img4{
     width: 198px;
     height: 198px;
-    border: 1px solid black;
+    object-fit: contain;
+    padding: 3rem;
+}
+
+.img4-central{
+    width: 40%;
+    
+
 }
 .bg-green{
 background-color: #a2d39b;
 }
 .border-green{
-background-color: #d1e9cd;
+ border:8px solid #d1e9cd;
+
 }
 .bg-bordeau{
 background-color: #61082b;
@@ -272,7 +289,7 @@ background-color: #ff1c1c;
 
 }
 .bg-lightblu{
-background-color:#b4d0e7
+background-color:#b4d0e7;
 }
 .bg-blue{
 background-color: #0d2481;
@@ -280,6 +297,49 @@ background-color: #0d2481;
 .bg-giallo{
 background-color: #ffd830;
 }
+.large-bar{
+    width: 100%;
+    height: 150px;
+    background-color: #b4d0e7;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h3.subtittle4{
+    width: 70%;
+    font-size: 25px;
+    padding-left:3rem;
+} 
+div p.subtittle5{
+    padding: 2rem 0 2rem;
+}
+div.hr{
+    width: 600px;
+    border: 1px solid rgb(197, 187, 187);
+    
+}
+div p.domande{
+    font-size:12px;
+    padding: 2rem 0 2rem;
+    
+}
+.justify-content{
+    justify-content: space-between;
+} 
+.special-caracter{
+    margin-right: 1rem;
+    padding-top: 2rem; 
+    
+}
+.bg-black{
+    background-color: black;
+
+}
+footer{
+    height: 250px;
+}
+
 
 
 
