@@ -154,7 +154,7 @@ div h2.subtittle1{
 
 .column-single{
     width:200px;
-    height: 600px;
+    height: 700px;
     border: 1px solid lightgray;
     margin-right: .5rem;
     font-size: 12px;
@@ -170,36 +170,47 @@ div.middle, div.down, p.upper{
    border-bottom: 1px solid lightgrey;
    align-items: center;
    height: 20px;
-  
+}
 
+.small-column{
+    width: 100%;
+    height: 100%;
+    padding-left: .6rem;
 }
-.margin{
-    margin-right: 5px;
+.padding-bottom1{
+    padding-bottom: 1rem;
 }
-.padding-bottom{
+.padding-bottom2{
     padding-bottom: 2rem;
 }
-.middle{
- line-height: 20px;
-   
-     
-
+.padding-bottom3{
+    padding-bottom: 3rem;
 }
-.down{
+.padding-top{
+    padding-top: 1rem;
+}
+.padding-right{
+    padding-right: 10px;
+}
+.margin-bottom{
+    margin-bottom: 5.8rem;
+}
+.botton2{
+    height: 30px;
+    width: 170px;
+    border: none;
     
+}
+.text-decoration{
+    text-decoration: underline;
+}
 
-}
-.empty{
-   
-    
-}
+
 .entreprise-vendita{
     width: 600px;
     height: 180px;
     background-color: red;
     border-color: 1px solid lightgray;
-    
-    
 }
 
 .assist-ufficio{
