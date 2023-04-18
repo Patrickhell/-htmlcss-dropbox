@@ -336,9 +336,10 @@ div.middle, div.down, p.upper{
     margin-bottom: 2rem;
 }
 
-.img4{
-    
-    color: white;
+.central-text{
+    overflow: scroll;
+  
+   
 }
 
 .margin-left{
